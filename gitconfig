@@ -1,0 +1,4 @@
+[filter "lfnotcr"]
+    clean = mac2unix
+    smudge = unix2mac
+
