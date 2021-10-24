@@ -1,4 +1,8 @@
-[filter "lfnotcr"]
+### Run `git config --local include.path gitconfig to enable this`
+[filter "mac2unix"]
     clean = mac2unix
     smudge = unix2mac
 
+[filter "mac2unix"]
+    clean = unix2mac
+    smudge = mac2unix

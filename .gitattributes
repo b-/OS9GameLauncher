@@ -1,1 +1,2 @@
-*.applescript filter=lfnotcr
+*.applescript filter=unix2mac
+*.applescript diff=mac2unix
